@@ -10,6 +10,7 @@
 		EF8BA96426140A9C007AFD42 /* WillyUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8BA95A26140A9C007AFD42 /* WillyUI.framework */; };
 		EF8BA96926140A9C007AFD42 /* WillyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8BA96826140A9C007AFD42 /* WillyUITests.swift */; };
 		EF8BA96B26140A9C007AFD42 /* WillyUI.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8BA95D26140A9C007AFD42 /* WillyUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF8BA97D26140B9F007AFD42 /* WUIColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8BA97C26140B9F007AFD42 /* WUIColorPalette.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		EF8BA96326140A9C007AFD42 /* WillyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WillyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8BA96826140A9C007AFD42 /* WillyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WillyUITests.swift; sourceTree = "<group>"; };
 		EF8BA96A26140A9C007AFD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8BA97C26140B9F007AFD42 /* WUIColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WUIColorPalette.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				EF8BA95D26140A9C007AFD42 /* WillyUI.h */,
+				EF8BA97C26140B9F007AFD42 /* WUIColorPalette.swift */,
 				EF8BA95E26140A9C007AFD42 /* Info.plist */,
 			);
 			path = WillyUI;
@@ -147,6 +150,7 @@
 				TargetAttributes = {
 					EF8BA95926140A9C007AFD42 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					EF8BA96226140A9C007AFD42 = {
 						CreatedOnToolsVersion = 12.4;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8BA97D26140B9F007AFD42 /* WUIColorPalette.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +346,7 @@
 		EF8BA96F26140A9C007AFD42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = T4UGD4975F;
@@ -357,6 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.WilsonDesimini.WillyUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +372,7 @@
 		EF8BA97026140A9C007AFD42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = T4UGD4975F;
@@ -389,6 +397,7 @@
 		EF8BA97226140A9C007AFD42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T4UGD4975F;
 				INFOPLIST_FILE = WillyUITests/Info.plist;
@@ -407,6 +416,7 @@
 		EF8BA97326140A9C007AFD42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T4UGD4975F;
 				INFOPLIST_FILE = WillyUITests/Info.plist;
