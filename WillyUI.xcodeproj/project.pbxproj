@@ -12,6 +12,7 @@
 		EF8BA96B26140A9C007AFD42 /* WillyUI.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8BA95D26140A9C007AFD42 /* WillyUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF8BA97D26140B9F007AFD42 /* WUIColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8BA97C26140B9F007AFD42 /* WUIColorPalette.swift */; };
 		EF8BA98126140FE2007AFD42 /* WUIColorPalette+WUIColorPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8BA98026140FE2007AFD42 /* WUIColorPalette+WUIColorPair.swift */; };
+		EF8BA9852614DE06007AFD42 /* WUIViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8BA9842614DE06007AFD42 /* WUIViewFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		EF8BA96A26140A9C007AFD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF8BA97C26140B9F007AFD42 /* WUIColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WUIColorPalette.swift; sourceTree = "<group>"; };
 		EF8BA98026140FE2007AFD42 /* WUIColorPalette+WUIColorPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WUIColorPalette+WUIColorPair.swift"; sourceTree = "<group>"; };
+		EF8BA9842614DE06007AFD42 /* WUIViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WUIViewFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				EF8BA95D26140A9C007AFD42 /* WillyUI.h */,
 				EF8BA97C26140B9F007AFD42 /* WUIColorPalette.swift */,
 				EF8BA98026140FE2007AFD42 /* WUIColorPalette+WUIColorPair.swift */,
+				EF8BA9842614DE06007AFD42 /* WUIViewFactory.swift */,
 				EF8BA95E26140A9C007AFD42 /* Info.plist */,
 			);
 			path = WillyUI;
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF8BA97D26140B9F007AFD42 /* WUIColorPalette.swift in Sources */,
+				EF8BA9852614DE06007AFD42 /* WUIViewFactory.swift in Sources */,
 				EF8BA98126140FE2007AFD42 /* WUIColorPalette+WUIColorPair.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
