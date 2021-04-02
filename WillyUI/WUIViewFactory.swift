@@ -7,10 +7,10 @@
 
 import UIKit
 
-public struct WUIViewFactory {
-    public let colorPalette: WUIColorPalette
+struct WUIViewFactory {
+    let colorPalette: WUIColorPalette
     
-    public func label(onColor: UIColor?) -> UILabel {
+    func label(onColor: UIColor?) -> UILabel {
         let label = UILabel()
         label.adjustsFontSizeToFitWidth = true
         label.textColor = color(onColor: onColor ?? .clear)
