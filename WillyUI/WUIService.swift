@@ -21,4 +21,8 @@ public class WUIService {
     static func label(onColor: UIColor?) -> UILabel {
         viewFactory.label(onColor: onColor)
     }
+    
+    static func button(type: WUIButtonType) -> UIButton {
+        viewFactory.button(type: type)
+    }
 }

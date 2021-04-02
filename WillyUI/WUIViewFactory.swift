@@ -17,4 +17,14 @@ struct WUIViewFactory {
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }
+    
+    func button(type: WUIButtonType) -> UIButton {
+        let colors = type.colors(forPalette: colorPalette)
+        
+        let button = UIButton()
+        button.backgroundColor = colors.backgroundColor
+        button.setTitleColor(colors.titleColor, for: .normal)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        return button
+    }
 }

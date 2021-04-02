@@ -15,6 +15,8 @@
 		EF8BA9852614DE06007AFD42 /* WUIViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8BA9842614DE06007AFD42 /* WUIViewFactory.swift */; };
 		EF8BA9892614E1EE007AFD42 /* WUIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8BA9882614E1EE007AFD42 /* WUIService.swift */; };
 		EFBEB15926178BE500FFB358 /* WUIViewFactory+OnType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBEB15826178BE500FFB358 /* WUIViewFactory+OnType.swift */; };
+		EFBEB15D26178DA900FFB358 /* WUIButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBEB15C26178DA900FFB358 /* WUIButtonType.swift */; };
+		EFBEB161261790E200FFB358 /* WUIButtonType+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBEB160261790E200FFB358 /* WUIButtonType+Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 		EF8BA9842614DE06007AFD42 /* WUIViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WUIViewFactory.swift; sourceTree = "<group>"; };
 		EF8BA9882614E1EE007AFD42 /* WUIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WUIService.swift; sourceTree = "<group>"; };
 		EFBEB15826178BE500FFB358 /* WUIViewFactory+OnType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WUIViewFactory+OnType.swift"; sourceTree = "<group>"; };
+		EFBEB15C26178DA900FFB358 /* WUIButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WUIButtonType.swift; sourceTree = "<group>"; };
+		EFBEB160261790E200FFB358 /* WUIButtonType+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WUIButtonType+Colors.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				EF8BA95D26140A9C007AFD42 /* WillyUI.h */,
+				EFBEB15C26178DA900FFB358 /* WUIButtonType.swift */,
+				EFBEB160261790E200FFB358 /* WUIButtonType+Colors.swift */,
 				EF8BA97C26140B9F007AFD42 /* WUIColorPalette.swift */,
 				EF8BA98026140FE2007AFD42 /* WUIColorPalette+WUIColorPair.swift */,
 				EF8BA9842614DE06007AFD42 /* WUIViewFactory.swift */,
@@ -211,9 +217,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFBEB15926178BE500FFB358 /* WUIViewFactory+OnType.swift in Sources */,
+				EFBEB15D26178DA900FFB358 /* WUIButtonType.swift in Sources */,
 				EF8BA97D26140B9F007AFD42 /* WUIColorPalette.swift in Sources */,
 				EF8BA9892614E1EE007AFD42 /* WUIService.swift in Sources */,
 				EF8BA9852614DE06007AFD42 /* WUIViewFactory.swift in Sources */,
+				EFBEB161261790E200FFB358 /* WUIButtonType+Colors.swift in Sources */,
 				EF8BA98126140FE2007AFD42 /* WUIColorPalette+WUIColorPair.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
